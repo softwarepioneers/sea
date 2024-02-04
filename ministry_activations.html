@@ -458,133 +458,163 @@
 <div class="row">
     <div class="container">
 <div class="col-xs-12 text-center">
- 
-
-    <h3> EMIS </h3>
-    <h3>  SYSTEM</h3>
-
-             
+    <h3> ACTIVATIONS </h3>
+    <h3>  EMIS</h3>
         </div>
         <div class="col-xs-12 col-md-12">
-             <form action="https://formspree.io/f/moqzgldz"  method="post" id="contact-us" class="form">
+             <form action=""  method="post" id="contact-us" class="form">
+              
                 
                 <div class="form-group col-sm-4">
-                    <input type="text" name="NAME" id="MinistryName" autocomplete="off" placeholder="Ministry Name " required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)">
+                    <!-- <input type="text" name="NAME" id="MinistryName" autocomplete="off" 
+                        placeholder="Ministry Name " autofocus required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)"> -->
+                    <input type="text" name="MinistryName" id="MinistryName" autocomplete="off" placeholder="Ministry Name " autofocus required class="form-control custom-form-control input-lg uc-text" >
                 </div>
 <div class="form-group col-sm-4">
-                      <select name="TYPE" id="MinistryType" required class="form-control custom-form-control input-lg ">
-                      <option value="" selected="" disabled="" >Ministry Type </option>
-                     <option value="PUBLIC EMIS">PUBLIC EMIS</option>
-         <option value="PRIVATE EMIS">PRIVATE EMIS</option>
+                      <select name="MinistryType" id="MinistryType" required class="form-control custom-form-control input-lg ">
+                      <option value="" selected disabled >Ministry Type </option>
+                     <option value="PRIVATE KGS">PRIVATE KGS </option>
+                          <option value="PUBLIC KGS">PUBLIC KGS</option>
                       </select>
                 </div>
              
 
 <div class="form-group col-sm-4">
-                    <input type="text" name="MANAGER" id="MinistryManager" autocomplete="off" placeholder="Ministry Manager" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)">
+    <!-- <input type="text" name="MANAGER" id="MinistryManager" autocomplete="off"
+         placeholder="Ministry Manager" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)"> -->
+                    <input type="text" name="MinistryManager" id="MinistryManager" autocomplete="off" placeholder="Ministry Manager" required class="form-control custom-form-control input-lg uc-text" >
                 </div>
                 <div class="form-group col-sm-4">
-                    <input type="text" name="MOBILE" id="MinistryMobile" autocomplete="off" placeholder="Ministry Mobile" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                    <input type="text" name="MinistryMobile" id="MinistryMobile" autocomplete="off" placeholder="Ministry Mobile"  maxlength="15" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
                 </div>
 
 <div class="form-group col-sm-4">
-                    <input type="text" name="PHONE" id="MinistryPhone" autocomplete="off" placeholder="Ministry Phone" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                    <input type="text" name="MinistryPhone" id="MinistryPhone" autocomplete="off" placeholder="Ministry Phone"  maxlength="15" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
                 </div>
 <div class="form-group col-sm-4">
-                    <input type="text" name="WHATSAPP" id="MinistryWhatsApp" autocomplete="off" placeholder="Ministry WhatsApp" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                    <input type="text" name="MinistryWhatsApp" id="MinistryWhatsApp" autocomplete="off" placeholder="Ministry WhatsApp" maxlength="15" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
                 </div>
 <div class="form-group col-sm-4">
-                    <input type="email" name="EMAIL" id="MinistryEmail" autocomplete="off" placeholder="Ministry Email " required class="form-control custom-form-control input-lg uc-text">
+                    <input type="email"  name="MinistryEmail" id="MinistryEmail" autocomplete="off" placeholder="Ministry Email "  required class="form-control custom-form-control input-lg uc-text">
                 </div>
-
-
-<div class="form-group col-sm-4">
-    <select name="SUBJECT" id="MinistrySubject" required class="form-control custom-form-control input-lg ">
-            <option value="" selected="" disabled=""  >Ministry Subject</option>
-            <optgroup label="SYSTEM">
-                <option value="PRODUCT SYSTEM">PRODUCT SYSTEM</option>
-                <option value="SERVICE SYSTEM">SERVICE SYSTEM</option>                                    
-            </optgroup>
-            <optgroup label="EXAMS">
-                <option value="PRODUCT EXAMS">PRODUCT EXAMS</option>
-                <option value="SERVICE EXAMS">SERVICE EXAMS</option>
-            </optgroup>
-    </select>
-</div>
-
-<div class="form-group col-sm-4">
-    <input type="text" name="USER" id="UserName" autocomplete="off" placeholder="Ministry User" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)">
-</div>
-
-<div class="form-group col-sm-4">
-    <input type="text" name="PASSWORD" id="MinistryPassword" autocomplete="off" placeholder="Ministry Password" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
-</div>
-
-
 
 
                 <div class="form-group col-sm-4">
-                    <select name="REGION" id="subject" required class="form-control custom-form-control input-lg ">
-                    <option value="" selected="" disabled="" >Ministry Region</option>
+                    <select name="MinistrySystem" id="MinistrySystem" required class="form-control custom-form-control input-lg ">
+                    <option value="" selected disabled >Ministry System</option>
+                    <optgroup label="EDUCATIONAL PRODUCTS">
+                        <option value="PRODUCT SYSTEM">PRODUCT SYSTEM</option>
+                        <option value="PRODUCT EXAMINATION">PRODUCT EXAMINATION</option>
+                     </optgroup>
+                     <optgroup label="EDUCATIONAL SERVICES ">
+                        <option value="SERVICE SYSTEM">SERVICE SYSTEM</option>
+                        <option value="SERVICE EXAMINATION">SERVICE EXAMINATION</option>
+                     </optgroup>
+                    </select>
+                </div>
+
+
+                <div class="form-group col-sm-4">
+                    <input type="text" name="UserName" id="UserName" autocomplete="off" placeholder="Ministry User" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)">
+                </div>
+                
+                <div class="form-group col-sm-4">
+                    <input type="text" name="MinistryPassword" id="MinistryPassword" autocomplete="off" placeholder="Ministry Password" required class="form-control custom-form-control input-lg uc-text"  >
+                </div>
+
+                <div class="form-group col-sm-4">
+                    <select name="Region" id="Region" required class="form-control custom-form-control input-lg ">
+                    <option value="" selected disabled >Ministry Region</option>
                     
                     </select>
               </div>
 
                <div class="form-group col-sm-4">
-                      <select name="CITY" id="topic" required class="form-control custom-form-control input-lg ">
-                      <option value="" selected="" disabled="" >Ministry City</option>
+                      <select name="City" id="topic" required class="form-control custom-form-control input-lg ">
+                      <option value="" selected disabled >Ministry City</option>
                       
                       </select>
                 </div>
 
                 <div class="form-group col-sm-4">
-                    <select name="DISTRICT" id="chapter" required class="form-control custom-form-control input-lg ">
-                    <option value="" selected="" disabled="" >Ministry Districts</option>
+                    <select name="District" id="chapter" required class="form-control custom-form-control input-lg ">
+                    <option value="" selected disabled >Ministry District</option>
                     
                     </select>
               </div>
 
-<div class="form-group col-sm-4">
-                    <input type="text" name="DURATION" id="MinistryDuration" autocomplete="off" placeholder="Ministry Duration" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)">
-                </div>
-
-
-
-
+               <!-- 
                 <div class="form-group col-sm-4">
-                    <select name="STATUS" id="MinistryStatus" required class="form-control custom-form-control input-lg ">
-                                         <option value="" selected="" disabled=""  >Ministry Status</option>
-                                         <optgroup label="SYSTEM">
-                                            <option value="ACTIVATED ">ACTIVATED </option>
-                                            <option value="SUSPENDED ">SUSPENDED  </option>
-                                            <option value="RENEWAL ">RENEWAL  </option>
-                                            <option value="WARNING ">WARNING  </option>
+                 <input type="text" name="SPECIALTY" id="MinistrySpecialty" autocomplete="off" 
+                    placeholder="Ministry Specialty" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)"> 
+                <input type="text" name="SPECIALTY" id="MinistrySpecialty" autocomplete="off" placeholder="Ministry Specialty" required class="form-control custom-form-control input-lg uc-text" >
+            </div>  
+        -->
+        
+            <div class="form-group col-sm-4">
+                    <select name="MinistryDuration" id="MinistryDuration" required class="form-control custom-form-control input-lg ">
+                    <option value="" selected disabled >Ministry Duration</option>
+                        <optgroup label="EDUCATIONAL SYSTEMS">
+                            <option value="YEARLY SYSTEM">YEARLY SYSTEM</option>
+                            <option value="MONTHLY SYSTEM">MONTHLY SYSTEM </option>
+                         </optgroup>
+                         <optgroup label="EDUCATIONAL EXAMINATIONS">
+                            <option value="YEARLY EXAMINATIONS">YEARLY EXAMINATION </option>
+                            <option value="MONTHLY EXAMINATIONS">MONTHLY EXAMINATION</option>
+                         </optgroup>
+                    </select>
+          </div>
+
+          <div class="form-group col-sm-4">
+                    <select name="MinistryStatus" id="MinistryStatus" required class="form-control custom-form-control input-lg ">
+                                         <option value="" selected disabled >Ministry Status</option>
+                                         <optgroup label="EDUCATIONAL SYSTEMS">
+                                            <option value="ACTIVATED SYSTEMS">ACTIVATED SYSTEMS</option>
+                                            <option value="WARNING SYSTEMS">WARNING SYSTEMS </option>
+                                            <option value="SUSPENDED SYSTEMS">SUSPENDED SYSTEMS </option>
                                          </optgroup>
-                                         <optgroup label="EXAMS">
-                                            <option value="ACTIVATED ">ACTIVATED  </option>
-                                            <option value="SUSPENDED ">SUSPENDED </option>
-                                            <option value="RENEWAL ">RENEWAL  </option>
-                                            <option value="WARNING ">WARNING  </option>
+                                         <optgroup label="EDUCATIONAL EXAMINATIONS">
+                                            <option value="ACTIVATED EXAMINATIONS">ACTIVATED EXAMINATIONS </option>
+                                            <option value="WARNING EXAMINATIONS">WARNING EXAMINATIONS </option>
+                                            <option value="SUSPENDED EXAMINATIONS">SUSPENDED EXAMINATIONS</option>
                                          </optgroup>
                    </select>
                    </div>
+
+                <!-- <div class="form-group col-sm-4">
+                    <select name="PRODUCT" id="Product" required class="form-control custom-form-control input-lg ">
+                                         <option value="" selected disabled >Ministry Product</option>
+                                         <optgroup label="PRODUCT">
+                                            <option value="ONLINEPRODUCT">ONLINE PRODUCT</option>
+                                            <option value="OFFLINEPRODUCT">OFFLINE PRODUCT</option>
+                                         </optgroup>
+                                         <optgroup label="SERVICE">
+                                            <option value="ONLINESERVICE">ONLINE SERVICE</option>
+                                            <option value="OFFLINESERVICE">OFFLINE SERVICE</option>
+                                         </optgroup>
+                   </select>
+                   </div> -->
                    
 
 
              
                
-                <div class="form-group col-sm-12">
+                <!-- <div class="form-group col-sm-12">
                     <textarea name="MESSAGE" id="MinistryMessage" required autocomplete="off" placeholder="Ministry Message" cols="30" rows="5" class="form-control custom-form-control input-lg uc-text"></textarea>
-                </div>
+                </div> -->
                 <div class="form-group col-md-12 text-center ">
                
-                <input type="submit" value="Activate System" class="send-btn btn custom-btn btn-primary custom-btn-main">
+                <input type="submit" value="REGISTER" onclick="ValidateEmail(email)" class="send-btn btn custom-btn btn-primary custom-btn-main">
                     
                 </div>
+           
             </form>
         </div>
        
+              <p>
+               
 
+              </p>
     
            
         </div>
