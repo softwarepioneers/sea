@@ -501,11 +501,13 @@
                 <div class="form-group col-sm-4">
                     <select name="SchoolSystem" id="SchoolSystem" required class="form-control custom-form-control input-lg ">
                     <option value="" selected disabled >School System</option>
-                    <optgroup label="PRODUCT SYSTEM">
+                    <optgroup label="EDUCATIONAL PRODUCT">
                         <option value="PRODUCT SYSTEM">PRODUCT SYSTEM</option>
+                        <option value="PRODUCT EXAMINATION">PRODUCT EXAMINATION</option>
                      </optgroup>
-                     <optgroup label="SERVICE SYSTEM">
+                     <optgroup label="EDUCATIONAL SERVICE ">
                         <option value="SERVICE SYSTEM">SERVICE SYSTEM</option>
+                        <option value="SERVICE EXAMINATION">SERVICE EXAMINATION</option>
                      </optgroup>
                     </select>
                 </div>
@@ -516,7 +518,7 @@
                 </div>
                 
                 <div class="form-group col-sm-4">
-                    <input type="text" name="SchoolPassword" id="SchoolPassword" autocomplete="off" placeholder="School Password" required class="form-control custom-form-control input-lg uc-text"  onkeydown="return /[a-zA-Z]/i.test(event.key)">
+                    <input type="text" name="SchoolPassword" id="SchoolPassword" autocomplete="off" placeholder="School Password" required class="form-control custom-form-control input-lg uc-text"  >
                 </div>
 
                 <div class="form-group col-sm-4">
@@ -551,13 +553,13 @@
             <div class="form-group col-sm-4">
                     <select name="SchoolDuration" id="SchoolDuration" required class="form-control custom-form-control input-lg ">
                     <option value="" selected disabled >School Duration</option>
-                        <optgroup label="EDUCATIONAL SYSTEM">
+                        <optgroup label="EDUCATIONAL SYSTEMS">
                             <option value="YEARLY SYSTEM">YEARLY SYSTEM</option>
                             <option value="MONTHLY SYSTEM">MONTHLY SYSTEM </option>
                          </optgroup>
                          <optgroup label="EDUCATIONAL EXAMINATIONS">
-                            <option value="YEARLY EXAMINATIONS">YEARLY EXAMINATIONS </option>
-                            <option value="MONTHLY EXAMINATIONS">MONTHLY EXAMINATIONS</option>
+                            <option value="YEARLY EXAMINATIONS">YEARLY EXAMINATION </option>
+                            <option value="MONTHLY EXAMINATIONS">MONTHLY EXAMINATION</option>
                          </optgroup>
                     </select>
           </div>
@@ -565,15 +567,15 @@
           <div class="form-group col-sm-4">
                     <select name="SchoolStatus" id="SchoolStatus" required class="form-control custom-form-control input-lg ">
                                          <option value="" selected disabled >School Status</option>
-                                         <optgroup label="EDUCATIONAL SYSTEM">
-                                            <option value="ACTIVATED SYSTEM">ACTIVATED SYSTEM</option>
-                                            <option value="WARNING SYSTEM">WARNING SYSTEM </option>
-                                            <option value="SUSPENDED SYSTEM">SUSPENDED SYSTEM </option>
+                                         <optgroup label="EDUCATIONAL SYSTEMS">
+                                            <option value="ACTIVATED SYSTEMS">ACTIVATED SYSTEMS</option>
+                                            <option value="WARNING SYSTEMS">WARNING SYSTEMS </option>
+                                            <option value="SUSPENDED SYSTEMS">SUSPENDED SYSTEMS </option>
                                          </optgroup>
                                          <optgroup label="EDUCATIONAL EXAMINATIONS">
-                                            <option value="ACTIVATED EXAMINATION">ACTIVATED EXAMINATION </option>
-                                            <option value="WARNING EXAMINATION">WARNING EXAMINATION </option>
-                                            <option value="SUSPENDED EXAMINATION">SUSPENDED EXAMINATION</option>
+                                            <option value="ACTIVATED EXAMINATIONS">ACTIVATED EXAMINATIONS </option>
+                                            <option value="WARNING EXAMINATIONS">WARNING EXAMINATIONS </option>
+                                            <option value="SUSPENDED EXAMINATIONS">SUSPENDED EXAMINATIONS</option>
                                          </optgroup>
                    </select>
                    </div>
