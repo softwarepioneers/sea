@@ -509,20 +509,14 @@
 
 
 
-<div class="form-group col-sm-4">
-                      <select name="MinistryContract" id="MinistryContract" required class="form-control custom-form-control input-lg ">
-                      <option value="" selected="" disabled="" >Ministry Contract</option>
-                      <option value="NEW CONTRACT">NEW CONTRACT</option>
-                      <option value="RENEWAL CONTRACT">RENEWAL CONTRACT</option>
-                      </select>
-</div>
-
-<div class="form-group col-sm-4">
-                      <select name="MinistrySyllabus" id="MinistrySyllabus" required class="form-control custom-form-control input-lg ">
-                      <option value="" selected="" disabled="" >Ministry Syllabus</option>
-                      <option value="SOMALILAND">SOMALILAND</option>
-                      <option value="OTHER">OTHER</option>
-                     </select>
+                <div class="form-group col-sm-4">
+                    <input type="text" name="StartingDate" id="StartingDate" autocomplete="off" placeholder="Starting Date" onfocus="(this.type='date')" onblur="(this.type='text')" required class="form-control custom-form-control input-lg uc-text" >
+                    <!-- <input type="Date" name="StartingDate" id="StartingDate" autocomplete="off" placeholder="Starting Date" onchange="this.className=(this.value!=''?'has-value':'')" required class="form-control custom-form-control input-lg uc-text" > -->
+                </div>
+        
+                <div class="form-group col-sm-4">
+                    <input type="text" name="EndingDate" id="EndingDate" autocomplete="off" placeholder="Ending Date" onfocus="(this.type='date')" onblur="(this.type='text')" required class="form-control custom-form-control input-lg uc-text" >
+                    <!-- <input type="Date" name="EndingDate" id="EndingDate" autocomplete="off" placeholder="Ending Date" onchange="this.className=(this.value!=''?'has-value':'')" required class="form-control custom-form-control input-lg uc-text" > -->
                 </div>
 
                 <div class="form-group col-sm-4">
