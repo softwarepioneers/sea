@@ -2,12 +2,57 @@
 
 body {
   font-family: "Cairo Regular", 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+  background-color: #393939;
+}
+
+input[type=text] {
+  padding: 12px;
+  border: 1px solid #1f8ac0;
+  background: #393939;
+  color: #ffffff;
+  font-weight: bold;
+
+
+}
+
+textarea {
+  resize: none;
+  font-weight:BOLD ;
+  
+  
+}
+
+input[type=email] {
+  padding: 12px;
+  border: 1px solid #1f8ac0;
+  border-radius: 4px;
+  background: #393939;
+  color: white;
+  font-weight:BOLD ;
+ 
+
+
+}
+
+.Social-channel{
+  width:40px;
+  height:40px;
+}
+.ibrahim1 {text-align: center;font-size:27px;}
+.custom-navbar {
+  background-color: #393939;
+  border: none;
+  font-weight: bold;
+  border-bottom: 1px solid #EEEEEE;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-bottom:0px;
 }
 
 .ibrahim1 {text-align: center;}
 
 .custom-navbar {
-  background-color: white;
+  background-color: #393939;
   border: none;
   font-weight: bold;
   border-bottom: 0px solid #EEEEEE;
@@ -95,7 +140,7 @@ body {
 .overlay .title1 {
  padding-top: 10px;
   font-weight: bold;
-  color: white;
+  
 }
 
 .overlay .title2 {
@@ -161,6 +206,7 @@ font-size: 20px;
   margin-right: 0px;
   margin-left: 0px;
   margin-top: 10px;
+  background-color: #393939;
 }
 
 .custom-thumbnail > img {
@@ -174,11 +220,11 @@ font-size: 20px;
 }
 
 .custom-btn-primary {
-  color: #FF7766;
-  background-color: white;
+  color: #ffffff;
+  background-color: #1a75ff;
   border: 1px solid #FF7766;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .custom-btn-primary:hover,
@@ -191,7 +237,7 @@ font-size: 20px;
 }
 
 .custom-btn-primary2 {
-  color: #363636;
+  color: #1a75ff;
   width: 70px;
   background-color: white;
   border: none;
@@ -256,14 +302,15 @@ h4,
 h5 {
   font-weight: bold;
   margin-bottom: 15px;
+  color: white;
 }
 
 h3 {
-  color: #202020;
+  color: white;
 }
 
 h5 {
-  color: #969696;
+  color: white;
   font-size: 90%;
 }
 
@@ -271,6 +318,7 @@ h2 {
   font-weight: bolder;
   margin-bottom: 35px;
   margin-top: 35px;
+  color: white;
 }
 
 .client-logos {
@@ -554,11 +602,12 @@ hr {
 
 .custom-form-control {
   color: #868686;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #1f8ac0;
   box-shadow: none;
   border-radius: 2px;
   transition-property: border-color;
   transition-duration: 0.3s;
+  background-color: #393939;
 }
 
 .custom-form-control:focus {
@@ -756,7 +805,7 @@ body{
 
 
 .custom-navbar {
-    background-color: white;
+  background-color: #393939;
     border: none;
     font-weight: bold;
     border-bottom: 1px solid #EEEEEE;
@@ -828,7 +877,7 @@ body{
 
 .overlay .title1{
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .overlay .title2{
@@ -864,7 +913,7 @@ body{
     color:white;
     font-weight: bold;
     margin-top: 10px;
-    width:250px;
+    width:210px;
     border: 1px solid white; 
     font-size : 20px;
 }
@@ -902,11 +951,12 @@ body{
 }
 .custom-title{
     font-weight: bold;
+    color: white;
 }
 
 .custom-btn-primary{
-    color: #FF7766;
-    background-color: white;
+    color: #ffffff;
+    background-color: #1a75ff;
     border: 1px solid #FF7766;
     border-radius: 3px;
 }
@@ -986,14 +1036,15 @@ body{
  h3,h4, h5 {
     font-weight: bold;
     margin-bottom: 15px;
+    color: white;
 }
 
 h3 {
-    color: #202020;
+  color: white;
 }
 
 h5{
-    color: #969696;
+  color: white;
     font-size: 90%;
 }
 
@@ -1001,6 +1052,7 @@ h2 {
     font-weight: bolder;
     margin-bottom: 35px;
     margin-top: 35px;
+    color: white;
 }
 
 .client-logos{
@@ -1283,12 +1335,16 @@ hr{
 }
 
 .custom-form-control {
-    color:#868686;
-    border: 1px solid #EBEBEB;
-    box-shadow:none;
-    border-radius: 2px;
+    
+    color: #ffffff;
+    border: 1px solid #1f8ac0;
+    box-shadow: none;
     transition-property: border-color;
     transition-duration: 0.3s;
+    background: #393939;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .custom-form-control:focus
